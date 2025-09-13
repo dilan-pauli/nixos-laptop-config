@@ -1,5 +1,5 @@
 {
-  description = "XNM's NixOS Configuration";
+  description = "Dilan's NixOS Configuration";
 
   inputs = {
       nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -15,12 +15,13 @@
       modules = [
         ./configuration.nix
         ./hardware-configuration.nix
-        ./nvidia.nix
+        # ./nvidia.nix
+        ./intel-UHD.nix
         # ./disable-nvidia.nix
         ./opengl.nix
         # ./fingerprint-scanner.nix
         # ./clamav-scanner.nix
-        ./yubikey.nix
+        # ./yubikey.nix
         ./sound.nix
         ./usb.nix
         ./keyboard.nix
@@ -38,7 +39,7 @@
         ./theme.nix
         ./internationalisation.nix
         ./fonts.nix
-        ./security-services.nix
+        # ./security-services.nix
         ./services.nix
         # ./printing.nix
         # ./gnome.nix
@@ -63,7 +64,6 @@
         ./utils.nix
         ./terminal-utils.nix
         ./llm.nix
-        ./work.nix
       ];
     };
   };

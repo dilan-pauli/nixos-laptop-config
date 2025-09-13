@@ -32,7 +32,6 @@
     wrk2
     procs
     tealdeer
-    # skim #fzf better alternative in rust
     monolith
     # taskwarrior3
     asciinema
@@ -40,7 +39,6 @@
     aria
     # wormhole-william
     magic-wormhole-rs
-    # macchina #neofetch alternative in rust
     dogdns
     sd
     ouch
@@ -65,11 +63,11 @@
     tre-command
     yazi
     chafa
-
     cmatrix
     pipes-rs
     rsclock
     cava
     figlet
+    github-cli
   ];
 }
